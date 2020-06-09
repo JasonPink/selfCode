@@ -3,16 +3,20 @@
  * @Author: JasonPink
  * @Date: 2020-06-08 14:56:27
  * @LastEditors: JasonPink
- * @LastEditTime: 2020-06-08 15:28:02
+ * @LastEditTime: 2020-06-09 10:10:11
  */ 
+
 /**
- * 数组去重
- * @method unquieArray
- * @param { Array } 
- * @return { Array } 
+ * 数组去重 
  */ 
-export function unquieArray(arr) {
+function unquieArray(arr) {
   return arr.filter((item, index, self) => {
     return self.indexOf(item) === index;
   })
+}
+/**
+ * 删除指定下标元素
+ */
+function deleteByIndex(arr, index) {
+
 }
